@@ -117,10 +117,10 @@ function fruits(){
   if(World.frameCount%80===0){
     fruit=createSprite(400,200,20,20);
     fruit.x = 0    
-  //Increase the velocity of fruit after score 4 
+      //Increase the velocity of fruit after score 4 
 
       // fruit.velocityX= (7+(score/4));
-      fruit.velocityY= (7+(score));
+      fruit.velocityX= (7+(score));
       // fruit.velocity= (7+(score/4));
       // fruit.velocityX= (7);
      
